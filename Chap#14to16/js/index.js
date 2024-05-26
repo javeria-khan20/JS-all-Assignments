@@ -35,7 +35,17 @@
 // Q:no 7
 
 // var qualification = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil","PhD"];
-// document.write("<oll><li>" + qualification + "</li></ol>");
+// document.write("<h1>" + "Qualification" + "</h1)>");
+// document.write("<ol>");
+// document.write("<li>" + qualification[0] + "</li)>");
+// document.write("<li>" + qualification[1] + "</li)>");
+// document.write("<li>" + qualification[2] + "</li)>");
+// document.write("<li>" + qualification[3] + "</li)>");
+// document.write("<li>" + qualification[4] + "</li)>");
+// document.write("<li>" + qualification[5] + "</li)>");
+// document.write("<li>" + qualification[6] + "</li)>");
+// document.write("<li>" + qualification[7] + "</li)>");
+// document.write("</ol>");
 
 // Q:no 8
 

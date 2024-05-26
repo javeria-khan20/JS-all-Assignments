@@ -12,7 +12,7 @@
 alert("Happy Coding!"); */
 
 // Q:no 5
-// console.log(alert("Hello") , "Javascript");
+// console.log("Hello... I can run JS through my web browser's console");
 
 // Q:no 6
 // alert("HTML and CSS");

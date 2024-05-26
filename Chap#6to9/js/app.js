@@ -33,18 +33,26 @@
 
 // Qno : 05
 
+// var number = +prompt("Enter a number: ") || 5;
+// var table = "Multiplication Table of " + number + "<br>";
 
-// var tableNum = +prompt("Enter a Number" , 5);
+// var i = 1;
+// while (i <= 10) {
+//     table += number + " × " + i + " = " + (number * i) + "<br>";
+//     i++;
+// }
+
+// document.write(table);
 
 // Qno : 06
 
 // All subject
-// var subject_1 = prompt('Enter your first subject');
-// var subject_2 = prompt('Enter your second subject');
-// var subject_3 = prompt('Enter your third subject');
-// var allSub = subject_1 + " " + subject_2  + " " + subject_3;
+var subject_1 = prompt('Enter your first subject');
+var subject_2 = prompt('Enter your second subject');
+var subject_3 = prompt('Enter your third subject');
+var allSub = subject_1 + " " + subject_2  + " " + subject_3;
 
-// // Total subjects marks
+// Total subjects marks
 
 // var totalMarks = 100;
 
@@ -52,21 +60,23 @@
 // var obtainedMarks_1 = +prompt('Enter your' + " " + subject_1 + " " + "obtained marks");
 // var obtainedMarks_2 = +prompt('Enter your' + " " +  subject_2 + " " + "obtained marks");
 // var obtainedMarks_3 = +prompt('Enter your' + " " +  subject_3 + " " + "obtained marks");
-// // document.write(obtained + "<br>");
 // var totalObtainedMarks = obtainedMarks_1 + obtainedMarks_2 + obtainedMarks_3;
 // // Percentage
-
 // var percent = totalObtainedMarks / (totalMarks * 3) * 100;
+
+// var subPercent1 = (obtainedMarks_1 / totalMarks ) * 100;
+// var subPercent2 = (obtainedMarks_2 / totalMarks ) * 100;
+// var subPercent3 = (obtainedMarks_3 / totalMarks ) * 100;
 // // document.write(percent);
 
 // // Table-methods
 
 // document.write("<table>");
 // document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
-// document.write("<tr><td>" + subject_1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_1 + "</td></tr>");
-// document.write("<tr><td>" + subject_2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_2 + "</td></tr>");
-// document.write("<tr><td>" + subject_3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_3 + "</td></tr>");
-// document.write("<tr><th>" + " " + "</th><th>" + (totalMarks * 3) + "</th><th>" + totalObtainedMarks + "</th><th>" + percent + "%" + "</th></tr>");
+// document.write("<tr><td>" + subject_1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_1 + "</td><td>" + subPercent1 + "%" + "</td></tr>");
+// document.write("<tr><td>" + subject_2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_2 + "</td><td>" + subPercent2 + "%" + "</td></tr>");
+// document.write("<tr><td>" + subject_3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks_3 + "</td><td>" + subPercent3 + "%" + "</td></tr>");
+// document.write("<tr><th>" + " " + "</th><th>" + (totalMarks * 3) + "</th><th>" + totalObtainedMarks + "</th><th>" + percent.toFixed(2) + "%" + "</th></tr>");
 // document.write("</table>");
 
 
