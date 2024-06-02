@@ -99,40 +99,44 @@
 
 // Q:no 6
 
-// var sub_1 = +prompt("Enter your obtained marks of english subject");
-// var sub_2 = +prompt("Enter your obtained marks of urdu subject");
-// var sub_3 = +prompt("Enter your obtained marks of computer subject");
-// var totalMarks = +prompt("Enter your total marks");
+var sub_1 = +prompt("Enter your obtained marks of english subject");
+var sub_2 = +prompt("Enter your obtained marks of urdu subject");
+var sub_3 = +prompt("Enter your obtained marks of computer subject");
+var totalMarks = +prompt("Enter your total marks");
 
-// var obtained = sub_1 + sub_2 + sub_3;
+var obtained = sub_1 + sub_2 + sub_3;
 
-// var percentage = (obtained / totalMarks) * 100;
-// var garde;
-// var remarks;
-// document.write("<table>")
+var percentage = (obtained / totalMarks) * 100;
+var garde;
+var remarks;
+document.write("<table>")
 
-// if (percentage >= 80 && percentage < 101) {
-//     document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
-//     document.write("<tr><td>" + "Greater then & equal to 80" + "</td><td>" + "A+1" + "</td><td>" + "Excellent" + "</td></tr>");
-// } else if(percentage >= 70){
-//     document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
-//     document.write("<tr><td>" + "Greater then & equal to 70" + "</td><td>" + "A" + "</td><td>" + "Good" + "</td></tr>");
-// } else if(percentage >= 60){
-//     document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
-//     document.write("<tr><td>" + "Greater then & equal to 60" + "</td><td>" + "B" + "</td><td>" + "You need to improve" + "</td></tr>");
-// } else if(percentage < 60){
-//     document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
-//     document.write("<tr><td>" + "Less then 60" + "</td><td>" + "Fail" + "</td><td>" + "Sorry" + "</td></tr>");
-//     document.write("</table>")
-// }
+if (percentage >= 80 && percentage < 101) {
+    garde = "A+"
+    document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
+    document.write("<tr><td>" + "Greater then & equal to 80" + "</td><td>" + "A+1" + "</td><td>" + "Excellent" + "</td></tr>");
+} else if(percentage >= 70){
+    garde = "A"
+    document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
+    document.write("<tr><td>" + "Greater then & equal to 70" + "</td><td>" + "A" + "</td><td>" + "Good" + "</td></tr>");
+} else if(percentage >= 60){
+    garde = "B"
+    document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
+    document.write("<tr><td>" + "Greater then & equal to 60" + "</td><td>" + "B" + "</td><td>" + "You need to improve" + "</td></tr>");
+} else if(percentage < 60){
+    garde = "FAIL"
+    document.write("<tr><th>" + "Percentage %" + "</th><th>" + "Grades" + "</th><th>" + "Remarks" + "</th></tr>");
+    document.write("<tr><td>" + "Less then 60" + "</td><td>" + "Fail" + "</td><td>" + "Sorry" + "</td></tr>");
+    document.write("</table>")
+}
 
 // Asking miss
-// document.write("<h1>Marks Sheet</h1>" + "<br>");
-// document.write("Total marks :" + " " + totalMarks + "<br>");
-// document.write("Percentage :" + " " + percentage + "<br>");
-// document.write("Grade :" + " " + garde + "<br>");
-// document.write("Rmarks :" + " " + remarks + "<br>");
-// document.write(percentage.toFixed(2) + "%");
+document.write("<h1>Marks Sheet</h1>" + "<br>");
+document.write("Total marks :" + " " + totalMarks + "<br>");
+document.write("Percentage :" + " " + percentage + "<br>");
+document.write("Grade :" + " " + garde + "<br>");
+document.write("Rmarks :" + " " + remarks + "<br>");
+document.write(percentage.toFixed(2) + "%");
 
 // Q:no 7
 
